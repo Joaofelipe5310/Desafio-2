@@ -65,6 +65,9 @@ h3 {
   display: flex;
   align-items: center;
   border: none;
+}
+
+.sheesh{
   color: #8257e5;
 }
 
@@ -75,7 +78,7 @@ h3 {
 
 .link:hover {
   font-size: 18px;
-  filter: brightness(2.1);
+  filter: brightness(1.5);
   transition: ease 500ms;
 }
 
