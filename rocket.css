@@ -1,0 +1,117 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+label {
+  color: #a8a8a8;
+}
+
+.logo {
+  width: 389px;
+  height: 94px;
+}
+
+.black {
+  width: 50%;
+  background-color: #121214;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #04d361;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+  color: #e1e1e6;
+}
+
+.subtext {
+  font-weight: 400;
+  color: #e1e1e6;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.arrow {
+  fill: #8257e5;
+  color: #8257e5;
+}
+
+.link:hover {
+  font-size: 18px;
+  filter: brightness(2.1);
+  transition: ease 500ms;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container {
+  display: flex;
+  height: 48px;
+}
+
+.inputEmail {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-left: 7px solid #04D361;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.inputEmail:focus {
+  outline: none;
+  border: none;
+}
+
+.button {
+  background-color: #8257e5;
+  width: 48px;
+  height: 100%;
+  border: none;
+}
+
+.svg {
+  filter: invert(1);
+  width: 50%;
+  height: 50%;
+}
